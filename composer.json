@@ -1,0 +1,45 @@
+{
+    "name": "voicingewe/phpsandbox",
+    "description": "A simple sandbox environment",
+    "keywords": [
+        "sandbox",
+        "php",
+        "console",
+        "cli"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javier Solis",
+            "email": "voicingewe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "files": [
+            "bootstrap/console.php"
+        ],
+        "psr-4": {}
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "scripts": {
+        "post-create-project-cmd": []
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
